@@ -10,7 +10,8 @@ crate-type = ["cdylib", "rlib"]
 [features]
 default = ["console_error_panic_hook"]
 
-
+[toolchain]
+channel = "nightly"
 
 [dependencies]
 wasm-bindgen = "0.2.80"
